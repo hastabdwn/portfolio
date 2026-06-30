@@ -1,3 +1,12 @@
+export interface Project {
+  title: string;
+  desc: string;
+  tech: string[];
+  github: string;
+  image: string;
+  link?: string; // Tanda tanya (?) membuat field ini opsional
+}
+
 export const projects = [
   {
     title: "Inventory Gudang",
