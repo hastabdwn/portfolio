@@ -1,4 +1,4 @@
-import { projects } from "@/data/projects";
+import { projects, Project } from "@/data/projects";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
@@ -6,7 +6,7 @@ export default function FeaturedProjects() {
   return (
     <section className="py-20" id="projects">
       <div className="space-y-12">
-        {projects.map((project, index) => (
+        {projects.map((project: Project, index: number) => (
           <div
             key={index}
             className="bg-background border border-border p-6 md:p-8 rounded-4xl flex flex-col md:flex-row gap-10 shadow-sm"
@@ -82,7 +82,7 @@ export default function FeaturedProjects() {
                   </a>
                 )}
 
-                {project.link && project.link !== "" && (
+                {project.link && project.link.trim() !== "" && (
                   <a
                     href={project.link}
                     target="_blank"
