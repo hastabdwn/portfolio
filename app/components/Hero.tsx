@@ -16,8 +16,8 @@ export default function Hero() {
       </div>
 
       <div className="relative w-full max-w-md shrink-0">
-        <div className="absolute inset-0 bg-primary blur-[80px] opacity-30 rounded-full translate-y-4"></div>
-        <div className="relative bg-card/90 backdrop-blur-xl border border-border rounded-xl overflow-hidden shadow-2xl transition-transform hover:-translate-y-2 duration-500">
+        <div className="absolute inset-0 rounded-full translate-y-4"></div>
+        <div className="relative border border-border rounded-xl overflow-hidden shadow-2xl transition-transform hover:-translate-y-2 duration-500">
           <div className="bg-muted/50 px-4 py-3 flex items-center gap-2 border-b border-border/50">
             <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
             <div className="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
