@@ -6,6 +6,10 @@ export default function FeaturedProjects() {
   return (
     <section className="py-20" id="projects">
       <div className="space-y-12">
+        <h2 className="text-4xl font-bold">
+          Selected
+          <span className="text-muted-foreground"> Work</span>
+        </h2>
         {projects.map((project: Project, index: number) => (
           <div
             key={index}
