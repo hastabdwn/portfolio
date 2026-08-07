@@ -15,6 +15,7 @@ export const jsonLines = [
     type: "array-items",
     items: [
       "JavaScript",
+      "TypeScript,
       "Golang",
       "PHP",
       ".NET",
