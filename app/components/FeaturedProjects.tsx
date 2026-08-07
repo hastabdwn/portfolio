@@ -7,8 +7,7 @@ export default function FeaturedProjects() {
     <section className="py-20" id="projects">
       <div className="space-y-12">
         <h2 className="text-4xl font-bold">
-          Selected
-          <span className="text-muted-foreground"> Work</span>
+          Selected Work
         </h2>
         {projects.map((project: Project, index: number) => (
           <div
@@ -49,9 +48,6 @@ export default function FeaturedProjects() {
 
             <div className="flex-1 flex flex-col justify-center space-y-5">
               <div>
-                <span className="text-primary text-xs font-bold tracking-[0.2em] uppercase">
-                  Featured Project
-                </span>
                 <h4 className="text-3xl font-bold mt-1 text-foreground">
                   {project.title}
                 </h4>
