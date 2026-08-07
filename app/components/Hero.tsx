@@ -8,9 +8,9 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
           {heroData.greeting} <span className="text-primary">{heroData.name}</span>
         </h1>
-        <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        <h3 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
           {heroData.title}
-        </h2>
+        </h3>
         <p className="text-muted-foreground max-w-xl leading-relaxed text-lg">
           {heroData.description}
         </p>
