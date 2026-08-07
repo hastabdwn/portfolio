@@ -18,7 +18,7 @@ export default function About() {
         ))}
 
         <div>
-          <h4 className="text-sm font-semibold text-muted-foreground mb-4 tracking-widest">
+          <h4 className="text-sm font-semibold mb-4">
             Tech Stack
           </h4>
           <div className="flex flex-wrap gap-2">
