@@ -9,6 +9,7 @@ export const aboutData = {
     "Golang",
     "PHP",
     ".NET",
+    "TypeScript",
     "React",
     "Vue.js",
     "Node.js",
