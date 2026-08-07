@@ -18,8 +18,8 @@ export default function About() {
         ))}
 
         <div>
-          <h4 className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-widest">
-            Core Stack
+          <h4 className="text-sm font-semibold text-muted-foreground mb-4 tracking-widest">
+            Tech Stack
           </h4>
           <div className="flex flex-wrap gap-2">
             {aboutData.techStack.map((tech) => (
