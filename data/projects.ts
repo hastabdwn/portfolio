@@ -9,7 +9,7 @@ export interface Project {
 
 export const projects = [
   {
-    title: "Inventory Gudang",
+    title: "Inventory System",
     desc: "A full-stack warehouse inventory management system featuring multi-warehouse support, purchase order approval workflows, barcode/QR generation, and an audit trail system for precise stock movement tracking.",
     tech: ["Laravel", "Laravel Breeze", "Spatie Laravel Permission", "MySQL", "Tailwind CSS"], 
     github: "https://github.com/hastabdwn/inventory-gudang.git",
