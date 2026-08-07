@@ -8,9 +8,7 @@ export default function About() {
     >
       <div className="flex-1 space-y-6">
         <h2 className="text-4xl font-bold">
-          About
-          <br />
-          <span className="text-muted-foreground">Me</span>
+          About Me
         </h2>
 
         {aboutData.description.map((text, i) => (
