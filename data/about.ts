@@ -2,7 +2,7 @@ export const aboutData = {
   description: [
     "I'm a Software Engineer with experience in architecting scalable internal systems using JavaScript, Node.js, Golang, Laravel, React, and Vue.js.",
     "My expertise spans REST API development, complex database integration with MySQL and PostgreSQL, and crafting responsive user interfaces. I thrive in Agile environments, where I consistently contribute to improving system efficiency and overall application performance.",
-    "Security is woven into every layer of my work. From hardened authentication and encrypted data flows to proactive vulnerability mitigation, I make sure the systems I build don't just scale — they stay protected.",
+    "Security is woven into every layer of my work. From hardened authentication and encrypted data flows to proactive vulnerability mitigation, I make sure the systems I build don't just scale - they stay protected.",
   ],
   techStack: [
     "JavaScript",
