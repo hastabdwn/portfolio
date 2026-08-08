@@ -14,5 +14,12 @@ export const projects = [
     tech: ["Laravel", "Laravel Breeze", "Spatie Laravel Permission", "MySQL", "Tailwind CSS"], 
     github: "https://github.com/hastabdwn/inventory-gudang.git",
     image: "/images/inventory-gudang.jpeg",
+  },  
+  {
+    title: "DashStack",
+    desc: "An admin dashboard UI built from a Figma design, featuring revenue and sales analytics charts, customer and deals tables, and a light/dark theme toggle.",
+    tech: ["React", "Vite", "TypeScript", "Tailwind CSS", "Recharts"],
+    github: "https://github.com/hastabdwn/dashstack-react",
+    image: "/images/dashstack-react.png",
   },
 ];
