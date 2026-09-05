@@ -34,7 +34,7 @@ export const aboutData = {
       role: "IT Programmer",
       company: "PT. Cipta Kesehatan Mandiri",
       desc: "Developed multi-module internal company systems and backend APIs for scalable data processing.",
-      period: "Dec 2025 - Present",
+      period: "Dec 2025 - August 2026",
     },
     {
       role: "IT Programmer",
